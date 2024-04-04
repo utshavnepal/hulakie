@@ -5,12 +5,14 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "backgroundColor":"#FDF7FD",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fdf7fd"
+    
     },
+    
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -18,13 +20,17 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.hulakie.hulakie",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#fdf7fd"
+      },
+      "backgroundColor": "#fdf7fd"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
+    
   }
 }
