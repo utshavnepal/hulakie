@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 import {StripeProvider} from "@stripe/stripe-react-native"
  function App() {
   const [isLoaded, setIsLoaded] = useState(true)
-  const dispatch = useDispatch()
+  
   return (
     <>
       { isLoaded && (

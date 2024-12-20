@@ -36,6 +36,7 @@ const Navigation = () => {
         (async () => {
           const tokene = await getToken() // Getting Token from Storage
           setToken(tokene)
+         //setToken('dgdhjgjk')
           if(token === null){
             
             setLoaded(true)
